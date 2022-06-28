@@ -1,0 +1,9 @@
+---- m_advertising_mode Matches (7 in 2 files) ----
+
+Advertiser.c (e:\01locker\06beaconsdk\nrf5_sdk_17.0.2_d674dde\examples\ble_peripheral\ble_app_blinky):static bool m_advertising_mode = false;
+Advertiser.c (e:\01locker\06beaconsdk\nrf5_sdk_17.0.2_d674dde\examples\ble_peripheral\ble_app_blinky):    if (m_advertising_mode)
+Advertiser.c (e:\01locker\06beaconsdk\nrf5_sdk_17.0.2_d674dde\examples\ble_peripheral\ble_app_blinky):        m_advertising_mode = false;
+Advertiser.c (e:\01locker\06beaconsdk\nrf5_sdk_17.0.2_d674dde\examples\ble_peripheral\ble_app_blinky):    m_advertising_mode = nAdvMode;
+Advertiser.c (e:\01locker\06beaconsdk\nrf5_sdk_17.0.2_d674dde\examples\ble_peripheral\ble_app_blinky):    m_advertising_mode = BLE_NO_ADV;
+Advertiser.c (e:\01locker\06beaconsdk\nrf5_sdk_17.0.2_d674dde\examples\ble_peripheral\ble_app_blinky):    if (radio_active && m_advertising_mode != BLE_NO_ADV)
+Advertiser.h (e:\01locker\06beaconsdk\nrf5_sdk_17.0.2_d674dde\examples\ble_peripheral\ble_app_blinky):extern uint8_t m_advertising_mode;
